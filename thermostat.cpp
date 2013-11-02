@@ -1,4 +1,3 @@
-
 #include <SoftwareSerial.h>
 const int TxPin = 7;
 SoftwareSerial lcd = SoftwareSerial(255, TxPin);
@@ -14,8 +13,7 @@ const int coolPin = 4;
 const int fanPin = 5;
 const int alarmPin = 6;
 
-const int FANOFF = 3;
-const int FANON = 3;
+
 const int COOL = -1;
 const int OFF = 0;
 const int HEAT = 1;
