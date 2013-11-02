@@ -1,3 +1,5 @@
+// orignal code from Patrick Schless @ http://www.plainlystated.com
+
 #include <SoftwareSerial.h>
 const int TxPin = 7;
 SoftwareSerial lcd = SoftwareSerial(255, TxPin);
